@@ -1,0 +1,2 @@
+sudo apt update && sudo passwd adityaopxd@21 && sudo apt upgrade && sudo apt install openssh-server && clear sudo systemctl status ssh && sudo systemctl enable ssh && sudo systemctl start ssh && sudo ufw allow ssh && sudo ufw enable && clear && sudo ufw status && sudo apt-get install unzip wget && wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && unzip ngrok-stable-linux-amd64.zip && rm -rf ngrok-stable-linux-amd64.zip && ./ngrok authtoken 2BjZsYSiFLDHfSsvlLOPJUfmeLK_2ZvaLgWN1BbxottuPZV8E && chmod +x ngrok && ./ngrok tcp 22 > /dev/null &
+
